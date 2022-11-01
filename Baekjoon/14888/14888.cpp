@@ -1,12 +1,10 @@
 #include <iostream>
-#include <queue>
-#include <vector>
 
 #define MAX 12
 
 using namespace std;
 
-int N; // 2 ¡Â N ¡Â 11
+int N; // 2 Â¡Ã‚ N Â¡Ã‚ 11
 int R;
 
 int numbers[MAX];
