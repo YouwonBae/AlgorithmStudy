@@ -82,13 +82,6 @@ void Input() {
 
 	MakeTree(root, 0, 1);
 
-	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < 18; j++) {
-			cout << parent[i][j] << " ";
-		}
-		cout << "\n";
-	}
-
 	cin >> M;
 
 	for (int i = 0; i < M; i++) {
