@@ -40,7 +40,7 @@ sort(V.begin(), V.end(), SortByXy);
 #inlclude <vector>
 #include <fuctional>
 
-priority_queue<xy, vector<xy>, greator<int>> Q;
+priority_queue<xy, vector<xy>, greater<int>> Q;
 ```
 ```
 #inlclude <vector>
