@@ -50,7 +50,7 @@ struct compare {
     bool operator () (const int& a, const int& b) const {
          return a > b;
     }
-}
+};
 
 priority_queue<xy, vector<xy>, compare> Q;
 ```
@@ -71,7 +71,7 @@ struct compare {
             return a.x > b.x;
         }
     }
-}
+};
 
 priority_queue<xy, vector<xy>, compare> Q;
 ```
